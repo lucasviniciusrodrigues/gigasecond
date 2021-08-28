@@ -8,7 +8,7 @@ public class Gigasecond {
     LocalDateTime dateTime;
 
     public Gigasecond(LocalDate moment) {
-        dateTime = moment.atTime(LocalTime.MAX);
+        dateTime = moment.atTime(LocalTime.MIDNIGHT);
     }
 
     public Gigasecond(LocalDateTime moment) {
